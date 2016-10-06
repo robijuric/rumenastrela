@@ -1,0 +1,38 @@
+{
+  "name": "rumenastrela",
+  "scripts": {
+  },
+  "env": {
+    "auth_service": {
+      "required": true
+    },
+    "GMAPS_KEY": {
+      "required": true
+    },
+    "LOCATION": {
+      "required": true
+    },
+    "PASSWORD": {
+      "required": true
+    },
+    "SATEP_COUNT": {
+      "required": true
+    },
+    "USERNAME": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/rumenastrela"
+    }
+  ]
+}
